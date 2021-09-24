@@ -1,0 +1,282 @@
+body,h1,h2,h3,h4,h5,h6{
+    font-family: 'Work Sans', sans-serif;
+}
+img{
+    max-width: 100%;
+}
+.main-bg{
+    background: #F7F9FF;
+}
+.jon-header{
+    position: fixed !important;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: 999;
+}
+/* header css */
+.jon-header .navbar-brand{
+    font-size: 25px;
+    font-weight: 500;
+}
+.jon-header span{
+    display: inline-block;
+    background: #6278DF;
+    color: white;
+    height: 43px;
+    width: 39px;
+    text-align: center;
+    border-radius: 10px;
+    font-size: 28px;
+    position: relative;
+    top: 2px;
+}
+/* header css end */
+/* slider css start */
+.slider-section{
+    background: url(./img/mbr-10.jpg) no-repeat center center;
+    padding: 200px 0;
+    position: relative;
+    top: 0;
+    left: 0;
+    z-index: 1;
+}
+.slider-section::after{
+    content: "";
+    height: 100%;
+    width: 100%;
+    background: rgba(0, 0, 0, 0.376);
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+}
+
+.slider-caption h4{
+  margin-bottom: 35px;
+}
+.slider-caption h2{
+ margin-bottom: 50px;
+ font-size: 46px;
+}
+.slider-caption .form-control {
+	padding: 29px 25px;
+}
+.slider-caption .btn {
+	background: #5ba533;
+	border-color: #5ba533;
+	color: #fff;
+	padding: 8px 25px;
+	font-size: 30px;
+    border: transparent;
+}
+.slider-caption .btn:hover{
+ background: #fff;
+ color: #6278DF;
+ box-shadow: 4px 5px 30px 0 #6278DF;
+}
+/* slider css end */
+.all{
+    font-weight: 700;
+    font-size: 50px;
+}
+.my{
+    font-size: 20px;
+}
+/* about section css start */
+.about{
+    background: #F7F9FF;
+}
+.main {
+	margin-top: 100px;
+}
+.main .lead{
+    font-size: 25px;
+    line-height: 2.7rem;
+
+}
+/* about section css end */
+/* feature css start */
+.feature-item{
+    height: 300px;
+    box-shadow: 4px 5px 30px 0 rgba(64,87,191,0.1);
+}
+.left-img-sec{
+    width: 40%;
+    overflow: hidden;
+    border-radius: 5px 0 0 5px;
+}
+.left-test-sec{
+    width: 60%;
+    padding: 25px;
+    
+}
+.left-img-sec img {
+	height: 100%;
+	width: auto !important;
+	max-width: inherit;
+	position: relative;
+	left: -128px;
+}
+.content {
+	left: 0 !important;
+}
+.hasib{
+    
+}
+/* feature css end*/
+/* portfolio css start */
+.portfolio-item{
+    position: relative;
+    display: block;
+}
+.portfolio-item a{
+    position: relative;
+    display: block;
+}
+.portfolio-item a::after{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background: rgba(98, 120, 223,.6);
+    opacity: 0;
+    visibility: hidden;
+    transition: .4s;
+}
+.portfolio-item:hover a::after{
+    visibility: visible;
+    opacity: 1;
+}
+
+/* portfolio css end*/
+/* pricing css start */
+.pricing-item{
+    background: #fff;
+    padding: 50px;
+    box-shadow: 4px 5px 30px 0 rgba(64,87,191,0.1);
+}
+.pricing-item h1{}
+.pricing-item h5{}
+.pricing-item ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    margin-bottom: 45px;
+}
+.pricing-item ul li{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: 20px;
+    color: #777777;
+}
+.pricing-item ul li span{
+    color: #6278DF;
+    font-size: 20px;
+    width: 40px;
+    font-weight: bold;
+    display: inline-block;
+}
+.pricing-table-button{}
+.pricing-table-button a{
+    border-color: #657be0;
+    border-width: 2px;
+    color: #657be0;
+    padding: 14px 30px;
+    font-size: 22px; 
+    transition: .4s;  
+    border: 2px transparent;
+    box-shadow: 4px 5px 30px 0 rgba(115, 124, 165, 0.2);
+}
+.pricing-item:hover a{
+    background-color: #657be0;
+    color: white;
+}
+.pricing-table-button:hover a{
+    background-color: #000;
+    color: white;
+    border-width: 2px;
+    
+}
+/* pricing css end */
+/* testimonial css start */
+.author{
+    width: 220px;
+    margin: auto;
+}
+.author img{
+    width: 85px;
+    margin-right: 18px;
+}
+.user-details{
+text-align: left;
+position: relative;
+top: 10px;
+}
+.testimonial-wrap span{
+    font-size: 76px;
+    color: rgba(0, 0, 0, 0.068);
+}
+/* testimonial css end */
+/* about css start */
+  .about{}
+  .about-item{
+      margin-top: 95px;
+  }
+  .about-item .card img{
+      width: 130px;
+      height: auto;
+      margin-top: -70px;
+      margin-left: 17px;
+  }
+  .card-body a{
+      border: transparent;
+      transition: .4s;
+  }
+  .card-body a:hover{
+      background-color: #000;
+      color: white;
+
+  }
+/* about css end */
+.content-form .card{
+    padding: 50px;
+}
+/* form .btn{
+    background-color: #17A2B8;
+    color: white;
+}
+.form .btn:hover{
+    color: white
+} */
+.card-body h4{
+    position: relative;
+    top: -22px;
+}
+.get {
+	margin-left: 40px;
+	margin-top: 80px;
+}
+.apple{
+    background: white;
+}
+.content-form .btn{
+    background: #5ba533;;
+border-color: #5ba533;
+color: #fff;
+padding: 10px 15px;
+font-size: 20px;
+border-radius: 10px;
+
+}
+.some:hover{
+    background: #000;
+}
+.mam{
+    background-color: #F7F9FF;
+    padding: 30px 0;
+    color: black;
+    text-align: center;
+}
